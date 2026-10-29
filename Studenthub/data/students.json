@@ -1,0 +1,108 @@
+
+[
+    {
+        "id": 1,
+        "name": "Aarav Shah",
+        "enrollment": "STU001",
+        "course": "IT",
+        "year": 2
+    },
+    {
+        "id": 2,
+        "name": "Diya Patel",
+        "enrollment": "STU002",
+        "course": "IT",
+        "year": 2
+    },
+    {
+        "id": 3,
+        "name": "Rohan Mehta",
+        "enrollment": "STU003",
+        "course": "CSE",
+        "year": 2
+    },
+    {
+        "id": 4,
+        "name": "Ananya Desai",
+        "enrollment": "STU004",
+        "course": "IT",
+        "year": 1
+    },
+    {
+        "id": 5,
+        "name": "Krish Joshi",
+        "enrollment": "STU005",
+        "course": "CSE",
+        "year": 2
+    },
+    {
+        "id": 6,
+        "name": "Ishita Dave",
+        "enrollment": "STU006",
+        "course": "IT",
+        "year": 1
+    },
+    {
+        "id": 7,
+        "name": "Dev Malhotra",
+        "enrollment": "STU007",
+        "course": "CSE",
+        "year": 3
+    },
+    {
+        "id": 8,
+        "name": "Mira Trivedi",
+        "enrollment": "STU008",
+        "course": "IT",
+        "year": 2
+    },
+    {
+        "id": 9,
+        "name": "Kabir Gandhi",
+        "enrollment": "STU009",
+        "course": "CSE",
+        "year": 1
+    },
+    {
+        "id": 10,
+        "name": "Sara Bhatt",
+        "enrollment": "STU010",
+        "course": "IT",
+        "year": 3
+    },
+    {
+        "id": 11,
+        "name": "Yash Parmar",
+        "enrollment": "STU011",
+        "course": "CSE",
+        "year": 2
+    },
+    {
+        "id": 12,
+        "name": "Nisha Shah",
+        "enrollment": "STU012",
+        "course": "IT",
+        "year": 1
+    },
+    {
+        "id": 13,
+        "name": "Arjun Patel",
+        "enrollment": "STU013",
+        "course": "CSE",
+        "year": 3
+    },
+    {
+        "id": 14,
+        "name": "Myra Mehta",
+        "enrollment": "STU014",
+        "course": "IT",
+        "year": 2
+    },
+    {
+        "id": 15,
+        "name": "Vivaan Shah",
+        "enrollment": "STU015",
+        "course": "CSE",
+        "year": 1
+    }
+]

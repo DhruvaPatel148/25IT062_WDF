@@ -1,0 +1,107 @@
+[
+  {
+    "id": 1,
+    "title": "Web Development Workshop",
+    "category": "Workshop",
+    "date": "2026-11-05",
+    "venue": "Computer Lab 1"
+  },
+  {
+    "id": 2,
+    "title": "Coding Competition",
+    "category": "Competition",
+    "date": "2026-11-08",
+    "venue": "Main Auditorium"
+  },
+  {
+    "id": 3,
+    "title": "Cloud Computing Seminar",
+    "category": "Seminar",
+    "date": "2026-11-12",
+    "venue": "Seminar Hall"
+  },
+  {
+    "id": 4,
+    "title": "Python Workshop",
+    "category": "Workshop",
+    "date": "2026-11-15",
+    "venue": "Computer Lab 2"
+  },
+  {
+    "id": 5,
+    "title": "Tech Quiz",
+    "category": "Competition",
+    "date": "2026-11-18",
+    "venue": "Room 204"
+  },
+  {
+    "id": 6,
+    "title": "Cybersecurity Seminar",
+    "category": "Seminar",
+    "date": "2026-11-20",
+    "venue": "Seminar Hall"
+  },
+  {
+    "id": 7,
+    "title": "UI Design Workshop",
+    "category": "Workshop",
+    "date": "2026-11-22",
+    "venue": "Design Lab"
+  },
+  {
+    "id": 8,
+    "title": "Debugging Contest",
+    "category": "Competition",
+    "date": "2026-11-25",
+    "venue": "Computer Lab 1"
+  },
+  {
+    "id": 9,
+    "title": "Artificial Intelligence Seminar",
+    "category": "Seminar",
+    "date": "2026-11-27",
+    "venue": "Main Auditorium"
+  },
+  {
+    "id": 10,
+    "title": "JavaScript Workshop",
+    "category": "Workshop",
+    "date": "2026-12-01",
+    "venue": "Computer Lab 2"
+  },
+  {
+    "id": 11,
+    "title": "Hackathon",
+    "category": "Competition",
+    "date": "2026-12-04",
+    "venue": "Innovation Centre"
+  },
+  {
+    "id": 12,
+    "title": "Data Science Seminar",
+    "category": "Seminar",
+    "date": "2026-12-07",
+    "venue": "Seminar Hall"
+  },
+  {
+    "id": 13,
+    "title": "HTML and CSS Workshop",
+    "category": "Workshop",
+    "date": "2026-12-10",
+    "venue": "Computer Lab 1"
+  },
+  {
+    "id": 14,
+    "title": "Project Presentation",
+    "category": "Competition",
+    "date": "2026-12-13",
+    "venue": "Main Auditorium"
+  },
+  {
+    "id": 15,
+    "title": "Cloud Security Seminar",
+    "category": "Seminar",
+    "date": "2026-12-16",
+    "venue": "Seminar Hall"
+  }
+]

@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StudentHub - Students</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+    <header>
+        <h1>StudentHub Students</h1>
+        <p>View student profiles</p>
+    </header>
+
+    <div class="event-controls">
+        <input type="text" id="search" placeholder="Search students...">
+
+        <select id="course">
+            <option value="all">All Courses</option>
+            <option value="IT">IT</option>
+            <option value="CSE">CSE</option>
+        </select>
+
+        <select id="sort">
+            <option value="name">Sort by Name</option>
+            <option value="year">Sort by Year</option>
+        </select>
+    </div>
+
+    <p id="status" role="status">Loading students...</p>
+
+    <section id="student-list" class="event-list"></section>
+
+    <nav class="pagination" aria-label="Student pages">
+        <button id="prev">Previous</button>
+        <span id="page-number">Page 1</span>
+        <button id="next">Next</button>
+    </nav>
+
+    <script src="../js/students.js"></script>
+</body>
+</html>

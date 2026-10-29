@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StudentHub - FAQs</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+    <header>
+        <h1>StudentHub FAQs</h1>
+        <p>Find answers to common questions</p>
+    </header>
+
+    <div class="event-controls">
+        <input type="text" id="search" placeholder="Search questions...">
+
+        <select id="category">
+            <option value="all">All Categories</option>
+            <option value="General">General</option>
+            <option value="Account">Account</option>
+            <option value="Events">Events</option>
+            <option value="Notices">Notices</option>
+            <option value="Students">Students</option>
+            <option value="FAQs">FAQs</option>
+            <option value="Technical">Technical</option>
+        </select>
+    </div>
+
+    <p id="status" role="status">Loading FAQs...</p>
+
+    <section id="faq-list" class="event-list"></section>
+
+    <nav class="pagination" aria-label="FAQ pages">
+        <button id="prev">Previous</button>
+        <span id="page-number">Page 1</span>
+        <button id="next">Next</button>
+    </nav>
+
+    <script src="../js/faqs.js"></script>
+</body>
+</html>

@@ -1,0 +1,379 @@
+
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --background: #f4f6fa;
+    --surface: #ffffff;
+    --text: #303846;
+    --heading: #24476b;
+    --border: #dce3ec;
+    --nav: #193650;
+    --button: #24476b;
+    --button-hover: #193650;
+    --link: #245b91;
+    --shadow: 0 4px 14px rgba(30, 55, 80, 0.08);
+}
+
+body.dark-mode {
+    --background: #171d29;
+    --surface: #222c3b;
+    --text: #e4eaf2;
+    --heading: #a9c9f1;
+    --border: #3a475a;
+    --nav: #111824;
+    --button: #426c9e;
+    --button-hover: #527fb2;
+    --link: #a9ceff;
+    --shadow: 0 4px 14px rgba(0, 0, 0, 0.18);
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: var(--background);
+    color: var(--text);
+    line-height: 1.6;
+    transition: background-color 0.25s, color 0.25s;
+}
+
+/* Header */
+header {
+    background-color: var(--heading);
+    color: white;
+    text-align: center;
+    padding: 25px 15px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 30px;
+}
+
+/* Navigation bar */
+nav {
+    background-color: var(--nav);
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+nav ul li {
+    display: block;
+}
+
+nav a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 9px 13px;
+    border-radius: 5px;
+    transition: background-color 0.2s;
+}
+
+nav a:hover {
+    background-color: #38658e;
+}
+
+/* Main content */
+main {
+    max-width: 1100px;
+    margin: 25px auto;
+    padding: 20px;
+}
+
+h2,
+h3 {
+    color: var(--heading);
+}
+
+h2 {
+    margin-top: 0;
+}
+
+p {
+    margin-top: 8px;
+}
+
+/* Sections */
+section {
+    background-color: var(--surface);
+    color: var(--text);
+    padding: 24px;
+    margin-bottom: 22px;
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    box-shadow: var(--shadow);
+}
+
+/* Cards */
+.card {
+    background-color: var(--surface);
+    color: var(--text);
+    padding: 20px;
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    box-shadow: var(--shadow);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-3px);
+}
+
+/* Grid layout */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 20px;
+}
+
+/* Forms */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-top: 14px;
+    font-weight: bold;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 11px;
+    margin-top: 5px;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    background-color: var(--surface);
+    color: var(--text);
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    outline: 2px solid #739bd0;
+    border-color: #739bd0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+/* Buttons */
+button {
+    background-color: var(--button);
+    color: white;
+    padding: 10px 18px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.2s;
+}
+
+button:hover {
+    background-color: var(--button-hover);
+}
+
+button:focus-visible,
+a:focus-visible {
+    outline: 3px solid #82b8ff;
+    outline-offset: 3px;
+}
+
+/* Links */
+a {
+    color: var(--link);
+}
+
+nav a,
+footer a {
+    color: white;
+}
+
+/* Footer */
+footer {
+    background-color: var(--nav);
+    color: white;
+    text-align: center;
+    padding: 18px;
+    margin-top: 30px;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Practical 4 notification */
+.notification {
+    background-color: #dceeff;
+    color: #193650;
+    padding: 12px 18px;
+    text-align: center;
+    border-bottom: 1px solid #b9d5ef;
+}
+
+body.dark-mode .notification {
+    background-color: #293e56;
+    color: #e4efff;
+    border-color: #425a76;
+}
+
+/* Practical 4 slider */
+.slider {
+    text-align: center;
+}
+
+#slideText {
+    min-height: 30px;
+}
+
+/* Practical 4 modal */
+.modal {
+    background-color: var(--surface);
+    color: var(--text);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    box-shadow: var(--shadow);
+}
+
+/* Tablet screens */
+@media screen and (max-width: 900px) {
+    .grid-container {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    main {
+        padding: 15px;
+    }
+}
+
+/* Mobile screens */
+@media screen and (max-width: 600px) {
+    header {
+        padding: 18px 12px;
+    }
+
+    header h1 {
+        font-size: 25px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: stretch;
+        text-align: center;
+    }
+
+    nav a {
+        padding: 10px;
+    }
+
+    .grid-container {
+        grid-template-columns: 1fr;
+    }
+
+    main {
+        margin: 10px auto;
+        padding: 10px;
+    }
+
+    section {
+        padding: 16px;
+    }
+
+    .card {
+        padding: 16px;
+    }
+}
+
+/* Practical 5 - Form Error Messages */
+.error {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+
+/* Compact Registration Form */
+#form {
+    max-width: 450px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+#form input:not([type="radio"]):not([type="checkbox"]),
+#form select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 8px;
+    box-sizing: border-box;
+}
+
+#form label {
+    font-size: 14px;
+}
+
+#form p {
+    margin: 5px 0 10px;
+}
+
+#form button {
+    margin-top: 10px;
+}
+
+#faq-list summary {
+    background-color: #e8e0f5;
+    padding: 12px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+/* Practical 11 - Student management */
+.table-wrap { overflow-x: auto; }
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: var(--surface);
+    color: var(--text);
+}
+
+th, td {
+    padding: 8px 10px;
+    border: 1px solid var(--border);
+    text-align: left;
+}
+
+.filter-form {
+    max-width: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    align-items: flex-end;
+}
+
+.inline-form {
+    display: inline;
+    max-width: none;
+    margin: 0;
+}
+
+.success { color: green; }
+.pagination a, .pagination strong { margin-right: 10px; }

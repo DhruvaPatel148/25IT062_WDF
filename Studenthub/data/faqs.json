@@ -1,0 +1,93 @@
+
+[
+    {
+        "id": 1,
+        "question": "What is StudentHub?",
+        "answer": "StudentHub is a portal that provides students with academic information, events, and notices.",
+        "category": "General"
+    },
+    {
+        "id": 2,
+        "question": "How can I register on StudentHub?",
+        "answer": "Open the registration page and fill in the required details.",
+        "category": "Account"
+    },
+    {
+        "id": 3,
+        "question": "How can I log in?",
+        "answer": "Enter your registered email and password on the login page.",
+        "category": "Account"
+    },
+    {
+        "id": 4,
+        "question": "What should I do if I forget my password?",
+        "answer": "Use the forgot password option if it is available on the login page.",
+        "category": "Account"
+    },
+    {
+        "id": 5,
+        "question": "Where can I find college events?",
+        "answer": "Visit the Events page to view upcoming college events.",
+        "category": "Events"
+    },
+    {
+        "id": 6,
+        "question": "How can I search for an event?",
+        "answer": "Enter the event title in the search box on the Events page.",
+        "category": "Events"
+    },
+    {
+        "id": 7,
+        "question": "Can I filter events by category?",
+        "answer": "Yes, select a category from the category dropdown.",
+        "category": "Events"
+    },
+    {
+        "id": 8,
+        "question": "Where can I find college notices?",
+        "answer": "Visit the Notices section to view college announcements.",
+        "category": "Notices"
+    },
+    {
+        "id": 9,
+        "question": "How can I view student profiles?",
+        "answer": "Open the Students page to view available student information.",
+        "category": "Students"
+    },
+    {
+        "id": 10,
+        "question": "What information is shown in a student profile?",
+        "answer": "A profile may display the student's name, enrollment number, course, and year.",
+        "category": "Students"
+    },
+    {
+        "id": 11,
+        "question": "Can I use StudentHub on my phone?",
+        "answer": "Yes, the portal can be designed to work on mobile devices and computers.",
+        "category": "General"
+    },
+    {
+        "id": 12,
+        "question": "How can I contact the college?",
+        "answer": "Use the official contact details provided by your college.",
+        "category": "General"
+    },
+    {
+        "id": 13,
+        "question": "How do I find an answer to a question?",
+        "answer": "Use the FAQ search option to search for a question by keyword.",
+        "category": "FAQs"
+    },
+    {
+        "id": 14,
+        "question": "Are event dates displayed on the portal?",
+        "answer": "Yes, event dates are displayed with the event details.",
+        "category": "Events"
+    },
+    {
+        "id": 15,
+        "question": "What should I do if the page does not load?",
+        "answer": "Check your connection and reload the page. Contact the portal administrator if the problem continues.",
+        "category": "Technical"
+    }
+]

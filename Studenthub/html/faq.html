@@ -1,0 +1,75 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StudentHub - FAQ</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Frequently Asked Questions</h1>
+        <p>Find answers to common questions</p>
+    </header>
+
+    <nav aria-label="Main navigation">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="register.html">Register</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="dashboard.html">Dashboard</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="profile.html">Profile</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="feedback.html">Feedback</a></li>
+            <li><a href="admin.html">Admin</a></li>
+        </ul>
+    </nav>
+
+    
+<main>
+    <section>
+        <h2>Common Questions</h2>
+
+        <div class="event-controls">
+            <input
+                type="text"
+                id="search"
+                placeholder="Search questions..."
+            >
+
+            <select id="category">
+                <option value="all">All Categories</option>
+                <option value="General">General</option>
+                <option value="Account">Account</option>
+                <option value="Events">Events</option>
+                <option value="Notices">Notices</option>
+                <option value="Students">Students</option>
+                <option value="FAQs">FAQs</option>
+                <option value="Technical">Technical</option>
+            </select>
+        </div>
+
+        <p id="status" role="status">Loading FAQs...</p>
+
+        <div id="faq-list" class="event-list"></div>
+
+        <div class="pagination">
+            <button id="prev" type="button">Previous</button>
+            <span id="page-number">Page 1</span>
+            <button id="next" type="button">Next</button>
+        </div>
+    </section>
+</main>
+
+
+    <footer>
+        <p>&copy; 2026 StudentHub</p>
+    </footer>
+    <script src="../js/faqs.js"></script>
+    <script src="../js/app.js"></script>
+</body>
+</html>

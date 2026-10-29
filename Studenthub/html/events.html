@@ -1,0 +1,75 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StudentHub - Events</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header>
+        <h1>College Events</h1>
+        <p>Explore college activities</p>
+    </header>
+
+    <nav aria-label="Main navigation">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="register.html">Register</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="dashboard.html">Dashboard</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="profile.html">Profile</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="feedback.html">Feedback</a></li>
+            <li><a href="admin.html">Admin</a></li>
+        </ul>
+    </nav>
+
+    
+<main>
+    <section>
+        <h2>Upcoming Events</h2>
+
+        <div class="event-controls">
+            <input
+                type="text"
+                id="search"
+                placeholder="Search events..."
+            >
+
+            <select id="category">
+                <option value="all">All Categories</option>
+                <option value="Workshop">Workshop</option>
+                <option value="Competition">Competition</option>
+                <option value="Seminar">Seminar</option>
+            </select>
+
+            <select id="sort">
+                <option value="date">Sort by Date</option>
+                <option value="title">Sort by Title</option>
+            </select>
+        </div>
+
+        <p id="status" role="status">Loading events...</p>
+
+        <div id="event-list" class="event-list"></div>
+
+        <div class="pagination">
+            <button id="prev" type="button">Previous</button>
+            <span id="page-number">Page 1</span>
+            <button id="next" type="button">Next</button>
+        </div>
+    </section>
+</main>
+
+    <footer>
+        <p>&copy; 2026 StudentHub</p>
+    </footer>
+    <script src="../js/events.js"></script>
+    <script src="../js/app.js"></script>
+</body>
+</html>
